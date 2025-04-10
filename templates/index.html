@@ -1,0 +1,3105 @@
+{% extends "base.html" %}
+
+{% block title %}Lloyd-Boteti Interglobal Ltd{% endblock %}
+
+{% block body_class %}home-page{% endblock %}
+
+{% block sidebar %}{% endblock %}
+
+{% block content %}
+<!-- Home Section -->
+<section id="home" class="section">
+<div class="home-container">
+    <div class="home-content">
+            <div class="home-text">
+                <div class="greeting-badge">
+                    <span class="wave">🌍</span> GLOBAL FREIGHT SOLUTIONS
+                    </div>
+                <h1 class="hero-title">LLOYD-BOTETI INTERGLOBAL</h1>
+                <div class="services-list">
+                    <div class="service-item-reveal">
+                        <span class="service-text">SEA FREIGHT</span>
+                    </div>
+                    <span class="separator">•</span>
+                    <div class="service-item-reveal">
+                        <span class="service-text">AIR FREIGHT</span>
+                    </div>
+                    <span class="separator">•</span>
+                    <div class="service-item-reveal">
+                        <span class="service-text">WAREHOUSING</span>
+                    </div>
+                </div>
+                <p class="hero-subtitle">Your trusted partner in global logistics, delivering seamless freight solutions across continents. With our expertise in sea and air freight, we ensure your cargo reaches its destination safely and efficiently.</p>
+                <div class="cta-group">
+                    <a href="#contact" class="cta-button primary">Get Quote
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="#about" class="cta-button secondary">About Us</a>
+                </div>
+                <div class="quick-stats">
+                    <div class="stat-item">
+                        <span class="counter" data-target="5000">0</span>
+                        <span>Global Shipments</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="counter" data-target="98">0</span>
+                        <span>Success Rate</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="counter" data-target="15">0</span>
+                        <span>Years Experience</span>
+                    </div>
+                </div>
+            </div>
+            <div class="home-image">
+                <img src="{{ url_for('static', filename='images/landing-option-two.png') }}" alt="Digital Innovation Illustration">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- About Section -->
+<section id="about" class="section">
+    <div class="about-container">
+        <div class="welcome-text">
+            <span class="tag-line">ABOUT US</span>
+            <p class="header-subtitle">Building Global Connections Together</p>
+        </div>
+        
+        <div class="about-content">
+            <!-- Left side with text and stats -->
+            <div class="about-left">
+                <div class="about-text">
+                    <p class="about-intro">We're <span class="highlight">Lloyd-Boteti Interglobal Ltd</span></p>
+                    <p class="about-description">
+                        Our team of dedicated professionals works seamlessly across borders to deliver 
+                        exceptional freight solutions. Together, we combine decades of experience with 
+                        innovative thinking to transform your logistics challenges into success stories. 
+                        With a collaborative approach and commitment to excellence, we've built lasting 
+                        partnerships with clients worldwide.
+                    </p>
+                </div>
+
+                <!-- Stats Grid - 4 quarters -->
+                <div class="stats-grid">
+                    <div class="stat-box">
+                        <h3>25+</h3>
+                        <p>TEAM MEMBERS</p>
+                    </div>
+                    <div class="stat-box">
+                        <h3>15+</h3>
+                        <p>COUNTRIES SERVED</p>
+                    </div>
+                    <div class="stat-box">
+                        <h3>200+</h3>
+                        <p>HAPPY CLIENTS</p>
+                    </div>
+                    <div class="stat-box">
+                        <h3>98%</h3>
+                        <p>SUCCESS RATE</p>
+                    </div>
+                </div>
+
+                <!-- Values and Mission Section -->
+                <div class="values-mission-section">
+                    <div class="values-grid">
+                        <div class="value-card">
+                            <i class="fas fa-handshake"></i>
+                            <h4>Partnership</h4>
+                            <p>Building lasting relationships with clients and partners worldwide.</p>
+                    </div>
+                        <div class="value-card">
+                            <i class="fas fa-lightbulb"></i>
+                            <h4>Innovation</h4>
+                            <p>Constantly evolving our solutions to meet modern logistics challenges.</p>
+                    </div>
+                        <div class="value-card">
+                            <i class="fas fa-globe"></i>
+                            <h4>Global Reach</h4>
+                            <p>Connecting businesses across continents with seamless logistics.</p>
+                    </div>
+                        <div class="value-card">
+                            <i class="fas fa-shield-alt"></i>
+                            <h4>Reliability</h4>
+                            <p>Consistent, dependable service you can trust.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="mission-statement">
+                        <h3>Our Mission</h3>
+                        <p>To revolutionize global logistics through innovative solutions, exceptional service, and sustainable practices.</p>
+                        <div class="mission-highlights">
+                            <div class="highlight-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Sustainable Operations</span>
+                            </div>
+                            <div class="highlight-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Customer-Centric Approach</span>
+                            </div>
+                            <div class="highlight-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Continuous Innovation</span>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+
+            <!-- Right side with What We Do section -->
+            <div class="about-right">
+                <h3>What We Do Best</h3>
+                <div class="services-container">
+                    <div class="services-timeline">
+                        <div class="service-card">
+                            <div class="timeline-dot"></div>
+                            <div class="service-content">
+                                <div class="service-icon">
+                                    <i class="fas fa-ship"></i>
+                                </div>
+                                <div class="service-text">
+                                    <h4>Sea Freight Team</h4>
+                                    <p>Our maritime experts handle FCL and LCL shipments with precision.</p>
+                                    <div class="team-size">Team Size: 12 Professionals</div>
+                                    <a href="#" class="learn-more-btn">
+                                        Learn More
+                                        <i class="fas fa-arrow-right"></i>
+                                    </a>
+        </div>
+    </div>
+</div>
+
+                        <div class="service-card">
+                            <div class="timeline-dot"></div>
+                            <div class="service-content">
+                                <div class="service-icon">
+                                    <i class="fas fa-plane"></i>
+                                </div>
+                                <div class="service-text">
+                                    <h4>Air Freight</h4>
+                                    <p>Express and standard air cargo services for time-sensitive shipments.</p>
+                                    <div class="team-size">Team Size: 8 Professionals</div>
+                                    <a href="#" class="learn-more-btn">
+                                        Learn More
+                                        <i class="fas fa-arrow-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="service-card">
+                            <div class="timeline-dot"></div>
+                            <div class="service-content">
+                                <div class="service-icon">
+                                    <i class="fas fa-warehouse"></i>
+                                </div>
+                                <div class="service-text">
+                                    <h4>Warehousing</h4>
+                                    <p>Secure storage solutions with modern inventory management systems.</p>
+                                    <div class="team-size">Team Size: 6 Professionals</div>
+                                    <a href="#" class="learn-more-btn">
+                                        Learn More
+                                        <i class="fas fa-arrow-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="service-card">
+                            <div class="timeline-dot"></div>
+                            <div class="service-content">
+                                <div class="service-icon">
+                                    <i class="fas fa-shield-alt"></i>
+                                </div>
+                                <div class="service-text">
+                                    <h4>Cargo Insurance</h4>
+                                    <p>Comprehensive coverage for your valuable shipments during transit.</p>
+                                    <div class="team-size">Team Size: 4 Professionals</div>
+                                    <a href="#" class="learn-more-btn">
+                                        Learn More
+                                        <i class="fas fa-arrow-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="service-card">
+                            <div class="timeline-dot"></div>
+                            <div class="service-content">
+                                <div class="service-icon">
+                                    <i class="fas fa-boxes"></i>
+                                </div>
+                                <div class="service-text">
+                                    <h4>Cargo Consolidation</h4>
+                                    <p>Efficient consolidation services to optimize shipping costs and space.</p>
+                                    <div class="team-size">Team Size: 5 Professionals</div>
+                                    <a href="#" class="learn-more-btn">
+                                        Learn More
+                                        <i class="fas fa-arrow-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Team Section -->
+    <div class="team-section">
+        <div class="welcome-text">
+            <span class="tag-line">MEET THE TEAM</span>
+            <p class="header-subtitle">The Experts Behind Your Success</p>
+        </div>
+
+        <div class="team-grid">
+            <div class="team-member">
+                <div class="member-image">
+                    <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="John Lloyd - CEO">
+                    <div class="member-overlay"></div>
+                </div>
+                <div class="member-info">
+                    <h3>John Lloyd</h3>
+                    <span class="position">Chief Executive Officer</span>
+                    <p>Leading our vision for global logistics excellence.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-btn"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="social-btn"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="team-member">
+                <div class="member-image">
+                    <img src="https://randomuser.me/api/portraits/women/28.jpg" alt="Sarah Chen - Operations Director">
+                    <div class="member-overlay"></div>
+                </div>
+                <div class="member-info">
+                    <h3>Sarah Chen</h3>
+                    <span class="position">Operations Director</span>
+                    <p>Orchestrating seamless global operations.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-btn"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="social-btn"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="team-member">
+                <div class="member-image">
+                    <img src="https://randomuser.me/api/portraits/men/45.jpg" alt="Michael Boteti - Logistics Manager">
+                    <div class="member-overlay"></div>
+                </div>
+                <div class="member-info">
+                    <h3>Michael Boteti</h3>
+                    <span class="position">Logistics Manager</span>
+                    <p>Innovating solutions for complex challenges.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-btn"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="social-btn"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Portfolio Section -->
+<section id="portfolio" class="section">
+    <div class="portfolio-container">
+        <div class="welcome-text">
+            <span class="tag-line">OUR PROJECTS</span>
+            <p class="header-subtitle">Showcasing Our Global Logistics Excellence</p>
+        </div>
+        <div class="portfolio-filters">
+            <button class="filter-btn active" data-filter="all">ALL</button>
+            <button class="filter-btn" data-filter="sea-freight">SEA FREIGHT</button>
+            <button class="filter-btn" data-filter="air-freight">AIR FREIGHT</button>
+            <button class="filter-btn" data-filter="special-cargo">SPECIAL CARGO</button>
+        </div>
+
+        <div class="portfolio-grid">
+            <!-- Sea Freight Projects -->
+            <div class="portfolio-item" data-category="sea-freight">
+                <img src="https://picsum.photos/600/400?random=1" alt="Container Shipping">
+                <div class="portfolio-overlay">
+                    <h3>Global Container Solutions</h3>
+                    <p>Full Container Load (FCL) Shipping</p>
+                </div>
+            </div>
+
+            <!-- Air Freight Projects -->
+            <div class="portfolio-item" data-category="air-freight">
+                <img src="https://picsum.photos/600/400?random=2" alt="Air Cargo">
+                <div class="portfolio-overlay">
+                    <h3>Express Air Delivery</h3>
+                    <p>Time-Critical Shipment</p>
+                </div>
+            </div>
+
+            <!-- Special Cargo Project -->
+            <div class="portfolio-item" data-category="special-cargo">
+                <img src="https://picsum.photos/600/400?random=3" alt="Heavy Equipment">
+                <div class="portfolio-overlay">
+                    <h3>Heavy Equipment Transport</h3>
+                    <p>Project Cargo Handling</p>
+                </div>
+            </div>
+
+            <!-- Sea Freight Project -->
+            <div class="portfolio-item" data-category="sea-freight">
+                <img src="https://picsum.photos/600/400?random=4" alt="Bulk Cargo">
+                <div class="portfolio-overlay">
+                    <h3>Bulk Cargo Management</h3>
+                    <p>Raw Materials Transportation</p>
+                </div>
+            </div>
+
+            <!-- Air Freight Project -->
+            <div class="portfolio-item" data-category="air-freight">
+                <img src="https://picsum.photos/600/400?random=5" alt="Perishable Goods">
+                <div class="portfolio-overlay">
+                    <h3>Perishable Goods Delivery</h3>
+                    <p>Temperature-Controlled Air Freight</p>
+                </div>
+            </div>
+
+            <!-- Special Cargo Project -->
+            <div class="portfolio-item" data-category="special-cargo">
+                <img src="https://picsum.photos/600/400?random=6" alt="Hazardous Materials">
+                <div class="portfolio-overlay">
+                    <h3>Hazardous Materials Transport</h3>
+                    <p>Specialized Safety Protocols</p>
+                </div>
+            </div>
+
+            <!-- Additional Sea Freight Project -->
+            <div class="portfolio-item" data-category="sea-freight">
+                <img src="https://picsum.photos/600/400?random=7" alt="RORO Shipping">
+                <div class="portfolio-overlay">
+                    <h3>Roll-On/Roll-Off Services</h3>
+                    <p>Vehicle Transportation Solutions</p>
+                </div>
+            </div>
+
+            <!-- Additional Air Freight Project -->
+            <div class="portfolio-item" data-category="air-freight">
+                <img src="https://picsum.photos/600/400?random=8" alt="Pharmaceutical Transport">
+                <div class="portfolio-overlay">
+                    <h3>Pharmaceutical Logistics</h3>
+                    <p>GDP-Compliant Air Transport</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Resume Section -->
+<section id="resume" class="section">
+    <div class="resume-container">
+        <div class="welcome-text">
+            <span class="tag-line">EXPERIENCE</span>
+            <p class="header-subtitle">Our Journey of Excellence</p>
+        </div>
+        
+        <div class="experience-content">
+            <!-- Left Section - Company Overview -->
+            <div class="company-overview">
+                <div class="overview-card">
+                    <h3>Our Legacy</h3>
+                    <div class="years-experience">
+                        <span class="number">15+</span>
+                        <span class="text">Years of Excellence</span>
+                    </div>
+                    <p class="overview-text">
+                        Since our inception, we've been at the forefront of global logistics, 
+                        building a reputation for reliability and innovation. Our journey has 
+                        been marked by continuous growth and adaptation to the ever-evolving 
+                        demands of international trade.
+                    </p>
+                    <div class="milestone-stats">
+                        <div class="stat">
+                            <span class="value">5000+</span>
+                            <span class="label">Global Shipments</span>
+                        </div>
+                        <div class="stat">
+                            <span class="value">98%</span>
+                            <span class="label">Success Rate</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Section - Latest Updates -->
+            <div class="latest-updates">
+                <div class="updates-timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-date">2024</div>
+                        <div class="timeline-content">
+                            <h4>Global Expansion</h4>
+                            <p>Expanded operations to 5 new countries, strengthening our international network.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">2023</div>
+                        <div class="timeline-content">
+                            <h4>Technology Integration</h4>
+                            <p>Implemented advanced tracking systems for real-time shipment monitoring.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">2022</div>
+                        <div class="timeline-content">
+                            <h4>Sustainability Initiative</h4>
+                            <p>Launched eco-friendly shipping solutions to reduce carbon footprint.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">2021</div>
+                        <div class="timeline-content">
+                            <h4>Service Enhancement</h4>
+                            <p>Introduced premium express delivery services for time-sensitive shipments.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Blog Highlights Section -->
+<section class="blog-highlights">
+    <div class="blog-header">
+        <h2 class="blog-title">Latest Insights</h2>
+        <a href="#" class="view-all">
+            View All Posts
+            <i class="fas fa-arrow-right"></i>
+        </a>
+    </div>
+    
+    <div class="blog-grid">
+        <div class="blog-card">
+            <div class="blog-image">
+                <img src="https://picsum.photos/400/300?random=1" alt="Blog Post 1">
+            </div>
+            <div class="blog-content">
+                <span class="blog-category">Logistics</span>
+                <h3 class="blog-title">The Future of Global Supply Chains</h3>
+                <p class="blog-excerpt">Exploring emerging trends and technologies shaping the future of international logistics.</p>
+                <div class="blog-meta">
+                    <span class="blog-date">
+                        <i class="far fa-calendar"></i>
+                        March 15, 2024
+                    </span>
+                </div>
+            </div>
+        </div>
+
+        <div class="blog-card">
+            <div class="blog-image">
+                <img src="https://picsum.photos/400/300?random=2" alt="Blog Post 2">
+            </div>
+            <div class="blog-content">
+                <span class="blog-category">Technology</span>
+                <h3 class="blog-title">Digital Transformation in Shipping</h3>
+                <p class="blog-excerpt">How digital solutions are revolutionizing cargo tracking and management.</p>
+                <div class="blog-meta">
+                    <span class="blog-date">
+                        <i class="far fa-calendar"></i>
+                        March 10, 2024
+                    </span>
+                </div>
+            </div>
+        </div>
+
+        <div class="blog-card">
+            <div class="blog-image">
+                <img src="https://picsum.photos/400/300?random=3" alt="Blog Post 3">
+            </div>
+            <div class="blog-content">
+                <span class="blog-category">Sustainability</span>
+                <h3 class="blog-title">Green Logistics Initiatives</h3>
+                <p class="blog-excerpt">Our commitment to reducing carbon footprint in global transportation.</p>
+                <div class="blog-meta">
+                    <span class="blog-date">
+                        <i class="far fa-calendar"></i>
+                        March 5, 2024
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Testimonials Section -->
+<section id="testimonials" class="section">
+    <div class="testimonials-container">
+        <div class="welcome-text">
+            <span class="tag-line">CLIENT TESTIMONIALS</span>
+            <p class="header-subtitle">What Our Partners Say About Us</p>
+        </div>
+        
+        <div class="testimonials-grid">
+            <div class="testimonial-card">
+                <div class="testimonial-content">
+                    <div class="quote-icon">
+                        <i class="fas fa-quote-left"></i>
+                    </div>
+                    <p class="testimonial-text">"Outstanding service and professional team. They handled our shipments with utmost care and efficiency. Their attention to detail and prompt communication made our international trade operations seamless."</p>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+                <div class="testimonial-author">
+                    <div class="author-image">
+                        <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="John Smith">
+                    </div>
+                    <div class="author-info">
+                        <h4>John Smith</h4>
+                        <p>CEO, Global Trading Co.</p>
+                        <div class="company-logo">
+                            <img src="https://via.placeholder.com/100x30" alt="Global Trading Co.">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="testimonial-card">
+                <div class="testimonial-content">
+                    <div class="quote-icon">
+                        <i class="fas fa-quote-left"></i>
+                    </div>
+                    <p class="testimonial-text">"Their expertise in handling complex logistics challenges is impressive. We've seen significant improvements in our supply chain efficiency since partnering with them."</p>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+                <div class="testimonial-author">
+                    <div class="author-image">
+                        <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Sarah Johnson">
+                    </div>
+                    <div class="author-info">
+                        <h4>Sarah Johnson</h4>
+                        <p>Logistics Director, Tech Solutions Inc.</p>
+                        <div class="company-logo">
+                            <img src="https://via.placeholder.com/100x30" alt="Tech Solutions Inc.">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="testimonial-card">
+                <div class="testimonial-content">
+                    <div class="quote-icon">
+                        <i class="fas fa-quote-left"></i>
+                    </div>
+                    <p class="testimonial-text">"Reliable, efficient, and always on time. Their global network and local expertise have been invaluable to our business expansion."</p>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+                <div class="testimonial-author">
+                    <div class="author-image">
+                        <img src="https://randomuser.me/api/portraits/men/67.jpg" alt="Michael Chen">
+                    </div>
+                    <div class="author-info">
+                        <h4>Michael Chen</h4>
+                        <p>Operations Manager, Asia Pacific Trading</p>
+                        <div class="company-logo">
+                            <img src="https://via.placeholder.com/100x30" alt="Asia Pacific Trading">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="section" style="margin-top: 1.5rem;">
+    <div class="welcome-text">
+        <span class="tag-line">CONTACT US</span>
+        <p class="header-subtitle">Let's Start a Conversation</p>
+    </div>
+    
+    <div class="contact-wrapper">
+        <div class="contact-container">
+            <!-- Contact Info Cards -->
+            <div class="contact-info">
+                <div class="info-card">
+                    <div class="icon-wrapper">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <div class="info-content">
+                        <h3>Email Us</h3>
+                        <p>info@lloyd-boteti.com</p>
+                    </div>
+                </div>
+                <div class="info-card">
+                    <div class="icon-wrapper">
+                        <i class="fas fa-phone"></i>
+                    </div>
+                    <div class="info-content">
+                        <h3>Call Us</h3>
+                        <p>+267 123 4567</p>
+                    </div>
+                </div>
+                <div class="info-card">
+                    <div class="icon-wrapper">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <div class="info-content">
+                        <h3>Visit Us</h3>
+                        <p>Gaborone, Botswana</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Contact Form -->
+            <div class="contact-form-wrapper">
+                <form id="contactForm" class="contact-form">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" required>
+                            <label for="name">Your Name</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" required>
+                            <label for="email">Your Email</label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" name="subject" required>
+                        <label for="subject">Subject</label>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" required></textarea>
+                        <label for="message">Your Message</label>
+                    </div>
+                    <button type="submit" class="submit-btn">
+                        <span>Send Message</span>
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Live Chat Button -->
+    <div class="live-chat-btn">
+        <i class="fas fa-comments"></i>
+        <span>Live Chat</span>
+    </div>
+</section>
+
+<style>
+/* Contact Section Styles */
+.contact-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.contact-container {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    gap: 3rem;
+    margin-top: 2rem;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    overflow: hidden;
+}
+
+/* Contact Info Styles */
+.contact-info {
+    padding: 3rem;
+    background: linear-gradient(135deg, rgba(44, 152, 240, 0.15) 0%, rgba(26, 117, 187, 0.1) 100%);
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.info-card {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 1.5rem;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 15px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+.info-card:hover {
+    transform: translateX(10px);
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+}
+
+.icon-wrapper {
+    width: 60px;
+    height: 60px;
+    background: rgba(44, 152, 240, 0.1);
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    transition: all 0.3s ease;
+}
+
+.icon-wrapper i {
+    font-size: 1.75rem;
+    color: var(--primary-color);
+}
+
+.info-content {
+    color: var(--text-primary);
+}
+
+.info-content h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    color: var(--primary-color);
+}
+
+.info-content p {
+    font-size: 1rem;
+    color: var(--text-secondary);
+}
+
+/* Contact Form Styles */
+.contact-form-wrapper {
+    padding: 3rem;
+}
+
+.contact-form {
+    width: 100%;
+}
+
+.form-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.form-group {
+    position: relative;
+    margin-bottom: 1.5rem;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 1rem;
+    background: #f8f9fa;
+    border: 2px solid transparent;
+    border-radius: 12px;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+.form-group textarea {
+    min-height: 150px;
+    resize: vertical;
+}
+
+.form-group label {
+    position: absolute;
+    left: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #f8f9fa;
+    padding: 0 0.5rem;
+    color: #666;
+    transition: all 0.3s ease;
+    pointer-events: none;
+}
+
+.form-group textarea + label {
+    top: 1rem;
+    transform: none;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    border-color: var(--primary-color);
+    background: white;
+    outline: none;
+}
+
+.form-group input:focus + label,
+.form-group textarea:focus + label,
+.form-group input:not(:placeholder-shown) + label,
+.form-group textarea:not(:placeholder-shown) + label {
+    top: 0;
+    transform: translateY(-50%) scale(0.9);
+    color: var(--primary-color);
+}
+
+.submit-btn {
+    background: var(--primary-color);
+    color: white;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 12px;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: auto;
+}
+
+.submit-btn:hover {
+    background: #1a75bb;
+    transform: translateY(-2px);
+}
+
+/* Responsive Styles */
+@media (max-width: 992px) {
+    .contact-container {
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+
+    .contact-info {
+        padding: 2rem;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1rem;
+    }
+
+    .info-card {
+        flex-direction: column;
+        text-align: center;
+        padding: 1.25rem;
+    }
+
+    .info-card:hover {
+        transform: translateY(-5px);
+    }
+
+    .icon-wrapper {
+        margin-bottom: 1rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .contact-info {
+        grid-template-columns: 1fr;
+        padding: 1.5rem;
+    }
+
+    .contact-form-wrapper {
+        padding: 1.5rem;
+    }
+
+    .form-row {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    .info-card {
+        flex-direction: row;
+        text-align: left;
+    }
+
+    .icon-wrapper {
+        margin-bottom: 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .contact-wrapper {
+        padding: 0 0.5rem;
+    }
+
+    .info-card {
+        padding: 1rem;
+    }
+
+    .icon-wrapper {
+        width: 50px;
+        height: 50px;
+    }
+
+    .icon-wrapper i {
+        font-size: 1.5rem;
+    }
+
+    .form-group input,
+    .form-group textarea {
+        padding: 0.875rem;
+    }
+
+    .submit-btn {
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+.live-chat-btn {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    background: var(--primary-color);
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(44, 152, 240, 0.2);
+    transition: all 0.3s ease;
+    z-index: 1000;
+}
+
+.live-chat-btn:hover {
+    transform: translateY(-3px);
+    background: #1a75bb;
+    box-shadow: 0 6px 20px rgba(44, 152, 240, 0.3);
+}
+
+.live-chat-btn i {
+    font-size: 1.2rem;
+}
+
+.live-chat-btn span {
+    font-size: 0.95rem;
+    font-weight: 500;
+}
+
+@media (max-width: 768px) {
+    .live-chat-btn {
+        bottom: 1.5rem;
+        right: 1.5rem;
+        padding: 0.75rem;
+    }
+
+    .live-chat-btn span {
+        display: none;
+    }
+}
+
+@media (max-width: 480px) {
+    .live-chat-btn {
+        bottom: 1rem;
+        right: 1rem;
+    }
+}
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    // Counter animation
+    const counters = document.querySelectorAll('.counter');
+    
+    counters.forEach(counter => {
+        const target = +counter.getAttribute('data-target');
+        const increment = target / 200;
+        
+        const updateCounter = () => {
+            const count = +counter.innerText;
+            if (count < target) {
+                counter.innerText = Math.ceil(count + increment);
+                setTimeout(updateCounter, 1);
+            } else {
+                counter.innerText = target;
+            }
+        };
+        
+        updateCounter();
+    });
+
+    // Add animation classes after page load
+    setTimeout(() => {
+        document.querySelectorAll('.text-reveal').forEach((el, index) => {
+            el.style.animation = `revealText 0.5s ease forwards ${index * 0.2}s`;
+        });
+    }, 500);
+
+    const menuToggle = document.querySelector('.menu-toggle');
+    const sidebar = document.querySelector('.sidebar');
+
+    menuToggle.addEventListener('click', () => {
+        sidebar.classList.toggle('active');
+    });
+
+    // Close menu when clicking outside
+    document.addEventListener('click', (e) => {
+        const isClickInside = sidebar.contains(e.target) || menuToggle.contains(e.target);
+        
+        if (!isClickInside && sidebar.classList.contains('active')) {
+            sidebar.classList.remove('active');
+        }
+    });
+
+    const liveChatBtn = document.querySelector('.live-chat-btn');
+    
+    liveChatBtn.addEventListener('click', function() {
+        // Here you would typically integrate with a live chat service
+        alert('Live chat feature coming soon!');
+    });
+});
+</script>
+{% endblock %}
+
+{% block extra_css %}
+<style>
+/* Section Consistency Improvements */
+.section {
+    min-height: 100vh;
+    padding: 2rem 1rem; /* Reduced from 4rem 2rem */
+    position: relative;
+    opacity: 1;
+    transform: none;
+    scroll-snap-align: start;
+}
+
+/* Container Consistency */
+.home-container,
+.about-container,
+.portfolio-container,
+.resume-container,
+.testimonials-container,
+.contact-container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 1rem; /* Reduced from 2rem */
+}
+
+/* Section Title Consistency */
+.section-title,
+.about-header h2,
+.portfolio-container h2,
+.testimonials-container h2,
+.contact-container h2 {
+    font-size: 2.5rem;
+    color: var(--text-primary);
+    margin-bottom: 1.5rem; /* Reduced from 2rem */
+    position: relative;
+    display: inline-block;
+}
+
+/* Section Spacing */
+.about-content,
+.portfolio-grid,
+.testimonials-grid,
+.contact-content {
+    margin-top: 1.5rem; /* Reduced from 2rem */
+}
+
+/* Grid Layouts Consistency */
+.portfolio-grid,
+.testimonials-grid,
+.stats-grid {
+    gap: 1rem; /* Reduced from 1.5rem */
+    margin-bottom: 1.5rem; /* Reduced from 2rem */
+}
+
+/* Card Consistency */
+.portfolio-item,
+.testimonial-card,
+.service-card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .section {
+        padding: 1.5rem 0.75rem; /* Reduced from 3rem 1rem */
+    }
+
+    .home-container,
+    .about-container,
+    .portfolio-container,
+    .resume-container,
+    .testimonials-container,
+    .contact-container {
+        padding: 0 0.75rem; /* Reduced from 1rem */
+    }
+
+    .section-title,
+    .about-header h2,
+    .portfolio-container h2,
+    .testimonials-container h2,
+    .contact-container h2 {
+        font-size: 2rem;
+        margin-bottom: 1rem; /* Reduced from 1.5rem */
+    }
+}
+
+/* Remove excess margins and padding */
+.values-mission-section {
+    margin-top: 1rem; /* Reduced from 1.5rem */
+    padding: 0;
+}
+
+.team-section {
+    padding: 1.5rem 0; /* Reduced from 2rem */
+    margin-top: 1rem; /* Reduced from 1.5rem */
+}
+
+/* Consistent spacing for text elements */
+p {
+    margin-bottom: 1rem;
+    line-height: 1.6;
+}
+
+/* Button Consistency */
+.btn,
+.filter-btn,
+.submit-btn {
+    padding: 0.75rem 1.5rem;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+}
+
+/* Content Sections Vertical Spacing */
+.intro-section,
+.about-section,
+.portfolio-section,
+.resume-section,
+.testimonials-section,
+.contact-section {
+    margin-bottom: 2rem; /* Reduced from 3rem */
+}
+
+/* Last section in page */
+.section:last-child {
+    margin-bottom: 0;
+}
+
+/* Enhanced About Page Styles */
+.about-container {
+    padding: 3rem 2rem;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.about-header {
+    text-align: center;
+    margin-bottom: 2.5rem;
+}
+
+.header-subtitle {
+    color: var(--primary-color);
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+}
+
+.about-content {
+    display: flex;
+    gap: 2rem;
+    align-items: flex-start;
+}
+
+.about-left {
+    flex: 1;
+}
+
+.about-text {
+    margin-bottom: 2rem;
+}
+
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.values-mission-section {
+    margin-top: 2rem;
+    padding: 1rem;
+}
+
+.values-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.value-card {
+    padding: 1rem;
+}
+
+.value-card i {
+    margin-bottom: 0.5rem;
+}
+
+.mission-statement {
+    padding: 1.5rem;
+    margin-top: 1rem;
+}
+
+.mission-highlights {
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.about-right {
+    flex: 0.8;
+    padding: 0 1rem;
+}
+
+.about-right h3 {
+    margin-bottom: 1.5rem;
+}
+
+.services-container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.services-timeline {
+    position: relative;
+    padding-left: 35px;
+}
+
+/* Thinner timeline line */
+.services-timeline::before {
+    content: '';
+    position: absolute;
+    left: 10px;
+    top: 0;
+    bottom: 0;
+    width: 1px;
+    background: #000;
+}
+
+.service-card {
+    position: relative;
+    margin-bottom: 1.5rem;
+    padding: 1.25rem;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+    transition: all 0.3s ease;
+}
+
+.service-card:last-child {
+    margin-bottom: 0;
+}
+
+.timeline-dot {
+    position: absolute;
+    left: -35px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 12px;
+    height: 12px;
+    background: var(--primary-color);
+    border: 3px solid #fff;
+    border-radius: 50%;
+    z-index: 1;
+    transition: all 0.3s ease;
+}
+
+.service-content {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.service-icon {
+    width: 32px;
+    height: 32px;
+    background: var(--primary-color);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    transition: all 0.3s ease;
+}
+
+.service-icon i {
+    font-size: 0.9rem;
+    color: white;
+}
+
+.service-text {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+.service-text h4 {
+    font-size: 1rem;
+    margin: 0;
+    color: #333;
+    transition: color 0.3s ease;
+    font-weight: 600;
+}
+
+.service-text p {
+    color: #666;
+    line-height: 1.5;
+    font-size: 0.85rem;
+    margin: 0;
+}
+
+.service-card:hover {
+    transform: translateX(8px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.service-card:hover .timeline-dot {
+    transform: translateY(-50%) scale(1.2);
+    box-shadow: 0 0 0 3px rgba(44, 152, 240, 0.2);
+}
+
+.service-card:hover .service-icon {
+    transform: rotate(360deg);
+    background: #333;
+}
+
+.service-card:hover .service-text h4 {
+    color: var(--primary-color);
+}
+
+/* Team Section Styles */
+.team-section {
+    background: #f8f9fa;
+    padding: 3rem 2rem;
+    margin-top: 2rem;
+}
+
+.team-header {
+    text-align: center;
+    margin-bottom: 2.5rem;
+}
+
+.team-subtitle {
+    color: #666;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+}
+
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.team-member {
+    background: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+.member-image {
+    position: relative;
+    overflow: hidden;
+}
+
+.member-image img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.member-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(44, 152, 240, 0.2);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.member-info {
+    padding: 1.5rem;
+    text-align: center;
+    position: relative;
+}
+
+.member-info h3 {
+    margin: 0;
+    color: #333;
+    font-size: 1.2rem;
+}
+
+.position {
+    display: block;
+    color: var(--primary-color);
+    font-size: 0.9rem;
+    margin: 0.5rem 0;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+    position: relative;
+    z-index: 1;
+    opacity: 0;
+    transform: translateY(10px);
+    transition: all 0.3s ease;
+}
+
+.team-member:hover .social-links {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.social-btn {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background: #f0f0f0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #333;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+/* Remove any floating social links */
+.team-member > .social-links {
+    display: none;
+}
+
+/* Ensure consistent spacing */
+.member-info p {
+    margin-bottom: 0.5rem;
+}
+
+.team-member:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+}
+
+.team-member:hover .member-overlay {
+    opacity: 1;
+}
+
+.team-member:hover .member-image img {
+    transform: scale(1.05);
+}
+
+/* Responsive adjustments */
+@media (max-width: 992px) {
+    .about-content {
+        flex-direction: column;
+    }
+    
+    .values-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .stats-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .team-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .about-container {
+        padding: 2rem 1rem;
+    }
+    
+    .values-grid,
+    .stats-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .about-right {
+        padding: 0;
+    }
+    
+    .team-section {
+        padding: 2rem 1rem;
+    }
+    
+    .team-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .values-mission-section {
+        margin-top: 1.5rem;
+    }
+}
+
+/* Additional styles for learn more button */
+.learn-more-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background: var(--primary-color);
+    color: white;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    opacity: 0;
+    transform: translateX(-10px);
+}
+
+.service-card:hover .learn-more-btn {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.learn-more-btn:hover {
+    background: #333;
+    transform: translateX(5px);
+}
+
+.learn-more-btn i {
+    font-size: 0.8rem;
+    transition: transform 0.3s ease;
+}
+
+.learn-more-btn:hover i {
+    transform: translateX(5px);
+}
+
+/* Mission statement enhancements */
+.mission-statement {
+    background: #f8f9fa;
+    padding: 1.5rem;
+    border-radius: 6px;
+    border: 1px solid rgba(0,0,0,0.05);
+}
+
+.mission-statement h3 {
+    color: #333;
+    margin-bottom: 0.75rem;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 600;
+    position: relative;
+    padding-bottom: 0.5rem;
+}
+
+.mission-statement h3::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 40px;
+    height: 2px;
+    background: var(--primary-color);
+}
+
+.mission-statement p {
+    color: #666;
+    line-height: 1.6;
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto 1.5rem;
+    font-size: 0.9rem;
+}
+
+.mission-highlights {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.highlight-item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.4rem 0.8rem;
+    background: white;
+    border-radius: 15px;
+    border: 1px solid rgba(0,0,0,0.05);
+    transition: all 0.3s ease;
+}
+
+.highlight-item:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    border-color: var(--primary-color);
+}
+
+.highlight-item i {
+    color: var(--primary-color);
+    font-size: 1rem;
+}
+
+.highlight-item span {
+    color: #333;
+    font-weight: 500;
+    font-size: 0.85rem;
+}
+
+/* Portfolio Container */
+.portfolio-container {
+    padding: 2rem;
+    background: var(--white);
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+}
+
+.section-title {
+    color: #2c98f0;
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+/* Filter Buttons */
+.portfolio-filters {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.filter-btn {
+    padding: 0.5rem 0;
+    border: none;
+    background: transparent;
+    color: #666;
+    cursor: pointer;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    position: relative;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+}
+
+.filter-btn::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 2px;
+    background-color: #2c98f0;
+    transition: width 0.3s ease;
+}
+
+.filter-btn:hover::after,
+.filter-btn.active::after {
+    width: 100%;
+}
+
+.filter-btn:hover,
+.filter-btn.active {
+    color: #2c98f0;
+}
+
+/* Grid Layout */
+.portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 2rem;
+    padding: 2rem 0;
+}
+
+/* Portfolio Items */
+.portfolio-item {
+    height: 300px;
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(44, 152, 240, 0.1);
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    cursor: pointer;
+    background: white;
+    opacity: 0;
+    transform: translateY(20px);
+}
+
+.portfolio-item-enter {
+    opacity: 1;
+    transform: translateY(0);
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.portfolio-item-exit {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.portfolio-item:hover {
+    transform: translateY(-8px) scale(1.02);
+    box-shadow: 0 20px 30px rgba(44, 152, 240, 0.15);
+}
+
+.portfolio-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    filter: brightness(1.02) contrast(1.02);
+}
+
+.portfolio-item:hover img {
+    transform: scale(1.1);
+}
+
+.portfolio-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(
+        to top,
+        rgba(44, 152, 240, 0.98),
+        rgba(44, 152, 240, 0.85) 60%,
+        rgba(44, 152, 240, 0.5)
+    );
+    padding: 2rem;
+    color: white;
+    transform: translateY(100%);
+    transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100%;
+}
+
+.portfolio-item:hover .portfolio-overlay {
+    transform: translateY(0);
+}
+
+.portfolio-overlay h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    transform: translateY(20px);
+    opacity: 0;
+    transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+    transition-delay: 0.1s;
+    color: white;
+}
+
+.portfolio-overlay p {
+    font-size: 0.9rem;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+    transition-delay: 0.2s;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.portfolio-item:hover .portfolio-overlay h3,
+.portfolio-item:hover .portfolio-overlay p {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .portfolio-grid {
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        gap: 1.5rem;
+    }
+
+    .portfolio-item {
+        height: 250px;
+    }
+
+    .portfolio-filters {
+        gap: 1rem;
+        flex-wrap: wrap;
+    }
+
+    .filter-btn {
+        font-size: 0.8rem;
+    }
+}
+
+.sidebar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 220px;
+    transform: translateX(-100%);
+    transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    backdrop-filter: blur(10px);
+    background: rgba(237, 246, 255, 0.95);
+    z-index: 1000;
+}
+
+.sidebar.active {
+    transform: translateX(0);
+}
+
+.menu-toggle {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    width: 40px;
+    height: 40px;
+    background: var(--primary-color);
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 1001;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.home-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    width: 100%;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+
+.intro-section {
+    flex: 1;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+    z-index: 1;
+}
+
+.home-image {
+    position: fixed;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 50%;
+    height: 100vh;
+    overflow: hidden;
+    z-index: 0;
+}
+
+.home-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    filter: brightness(1.02) contrast(1.02);
+}
+
+/* Update right navigation to appear above the image */
+.right-nav {
+    position: fixed;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 2;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 1rem 0.5rem;
+    border-radius: 25px 0 0 25px;
+    box-shadow: -2px 0 12px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+    .home-content {
+        flex-direction: column;
+        height: auto;
+        min-height: 100vh;
+    }
+
+    .intro-section {
+        padding: 2rem 1rem;
+        order: 1;
+    }
+
+    .home-image {
+        position: relative;
+        width: 100%;
+        height: 40vh;
+        order: 2;
+    }
+
+    .right-nav {
+        position: fixed;
+        right: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        z-index: 1000;
+        background: rgba(255, 255, 255, 0.95);
+    }
+}
+
+@media (max-width: 480px) {
+    .home-image {
+        height: 35vh;
+    }
+}
+
+/* Add to your CSS */
+.animated-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: 0;
+}
+
+.floating-shape {
+    position: absolute;
+    background: linear-gradient(135deg, var(--primary-light), rgba(44, 152, 240, 0.05));
+    border-radius: 50%;
+    animation: float 20s infinite ease-in-out;
+}
+
+.shape1 {
+    width: 300px;
+    height: 300px;
+    top: -100px;
+    left: -100px;
+    animation-delay: 0s;
+}
+
+.shape2 {
+    width: 200px;
+    height: 200px;
+    bottom: 10%;
+    right: 20%;
+    animation-delay: -5s;
+}
+
+.shape3 {
+    width: 150px;
+    height: 150px;
+    bottom: -50px;
+    left: 30%;
+    animation-delay: -10s;
+}
+
+@keyframes float {
+    0%, 100% { transform: translate(0, 0) rotate(0deg); }
+    25% { transform: translate(10px, -10px) rotate(5deg); }
+    50% { transform: translate(-5px, 5px) rotate(-5deg); }
+    75% { transform: translate(5px, 10px) rotate(2deg); }
+}
+
+.quick-stats {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-top: 2rem;
+    padding: 1rem;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.stat-item {
+    flex: 1;
+    text-align: center;
+    padding: 1rem;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.stat-item:hover {
+    transform: translateY(-5px);
+}
+
+.stat-item .counter {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--primary-color);
+    margin-bottom: 0.5rem;
+}
+
+.stat-item span {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    display: block;
+}
+
+@media (max-width: 768px) {
+    .quick-stats {
+        flex-direction: column;
+        gap: 0.75rem;
+        padding: 0.75rem;
+        margin-top: 1.5rem;
+    }
+
+    .stat-item {
+        padding: 0.75rem;
+    }
+
+    .stat-item .counter {
+        font-size: 1.75rem;
+        margin-bottom: 0.25rem;
+    }
+
+    .stat-item span {
+        font-size: 0.85rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .quick-stats {
+        gap: 0.5rem;
+        padding: 0.5rem;
+    }
+
+    .stat-item {
+        padding: 0.5rem;
+    }
+}
+
+/* Experience Section Styles */
+.experience-content {
+    display: flex;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.company-overview {
+    flex: 1;
+}
+
+.overview-card {
+    background: white;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    height: 100%;
+}
+
+.years-experience {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem 0;
+}
+
+.years-experience .number {
+    font-size: 4rem;
+    font-weight: 700;
+    color: var(--primary-color);
+    line-height: 1;
+}
+
+.years-experience .text {
+    font-size: 1.2rem;
+    color: var(--text-secondary);
+    margin-top: 0.5rem;
+}
+
+.overview-text {
+    color: var(--text-secondary);
+    line-height: 1.8;
+    margin: 2rem 0;
+    font-size: 1.1rem;
+}
+
+.milestone-stats {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+    padding-top: 2rem;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.milestone-stats .stat {
+    text-align: center;
+}
+
+.milestone-stats .value {
+    display: block;
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--primary-color);
+}
+
+.milestone-stats .label {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    margin-top: 0.5rem;
+}
+
+.latest-updates {
+    flex: 1;
+}
+
+.updates-timeline {
+    position: relative;
+    padding-left: 2rem;
+}
+
+.updates-timeline::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 1px;
+    background: linear-gradient(to bottom, 
+        rgba(44, 152, 240, 0.3),
+        rgba(44, 152, 240, 0.1)
+    );
+}
+
+.timeline-item {
+    position: relative;
+    margin-bottom: 1.5rem;
+    padding-left: 1.5rem;
+}
+
+.timeline-item::before {
+    content: '';
+    position: absolute;
+    left: -0.5rem;
+    top: 0;
+    width: 0.75rem;
+    height: 0.75rem;
+    border-radius: 50%;
+    background: rgba(44, 152, 240, 0.2);
+    border: 2px solid white;
+    box-shadow: 0 0 0 2px rgba(44, 152, 240, 0.1);
+}
+
+.timeline-date {
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--text-secondary);
+    margin-bottom: 0.25rem;
+}
+
+.timeline-content {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 1.25rem;
+    border-radius: 8px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+}
+
+.timeline-content:hover {
+    transform: translateX(3px);
+    background: white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.timeline-content h4 {
+    color: var(--text-primary);
+    margin-bottom: 0.5rem;
+    font-size: 1.1rem;
+}
+
+.timeline-content p {
+    color: var(--text-secondary);
+    font-size: 0.95rem;
+    line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+    .experience-content {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .overview-card {
+        padding: 1.5rem;
+    }
+
+    .years-experience .number {
+        font-size: 3rem;
+    }
+
+    .milestone-stats {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .updates-timeline {
+        padding-left: 1.5rem;
+    }
+
+    .timeline-item {
+        padding-left: 1.5rem;
+    }
+}
+
+/* Add Blog Highlights Section */
+.blog-highlights {
+    margin-top: 3rem;
+    padding: 2rem;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 12px;
+}
+
+.blog-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.blog-title {
+    font-size: 1.5rem;
+    color: var(--text-primary);
+    font-weight: 600;
+}
+
+.view-all {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-size: 0.9rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    transition: all 0.3s ease;
+}
+
+.view-all:hover {
+    gap: 0.75rem;
+}
+
+.blog-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+}
+
+.blog-card {
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+}
+
+.blog-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.blog-image {
+    height: 180px;
+    overflow: hidden;
+}
+
+.blog-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.blog-card:hover .blog-image img {
+    transform: scale(1.05);
+}
+
+.blog-content {
+    padding: 1.25rem;
+}
+
+.blog-category {
+    display: inline-block;
+    padding: 0.25rem 0.75rem;
+    background: rgba(44, 152, 240, 0.1);
+    color: var(--primary-color);
+    border-radius: 12px;
+    font-size: 0.75rem;
+    margin-bottom: 0.75rem;
+}
+
+.blog-title {
+    font-size: 1.1rem;
+    color: var(--text-primary);
+    margin-bottom: 0.5rem;
+    line-height: 1.4;
+}
+
+.blog-excerpt {
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+}
+
+.blog-meta {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 0.8rem;
+    color: var(--text-secondary);
+}
+
+.blog-date {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+}
+
+@media (max-width: 768px) {
+    .blog-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 480px) {
+    .blog-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .blog-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+    }
+}
+
+/* Testimonials Section Styles */
+.testimonials-container {
+    padding: 3rem 2rem;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 12px;
+    margin: 2rem 0;
+}
+
+.testimonials-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.testimonial-card {
+    background: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    transition: all 0.3s ease;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 0.6s ease forwards;
+}
+
+.testimonial-card:nth-child(1) { animation-delay: 0.2s; }
+.testimonial-card:nth-child(2) { animation-delay: 0.4s; }
+.testimonial-card:nth-child(3) { animation-delay: 0.6s; }
+
+@keyframes fadeInUp {
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.testimonial-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+}
+
+.testimonial-content {
+    padding: 2rem;
+    position: relative;
+}
+
+.quote-icon {
+    position: absolute;
+    top: 1.5rem;
+    left: 1.5rem;
+    color: var(--primary-color);
+    opacity: 0.2;
+    font-size: 2rem;
+    transform: rotate(-10deg);
+    transition: all 0.3s ease;
+}
+
+.testimonial-card:hover .quote-icon {
+    transform: rotate(0deg) scale(1.1);
+    opacity: 0.3;
+}
+
+.testimonial-text {
+    color: var(--text-secondary);
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+    padding-left: 1rem;
+}
+
+.rating {
+    display: flex;
+    gap: 0.25rem;
+    color: #ffc107;
+    margin-bottom: 1.5rem;
+}
+
+.testimonial-author {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1.5rem;
+    background: rgba(44, 152, 240, 0.05);
+    border-top: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.author-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 2px solid var(--primary-color);
+}
+
+.author-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.author-info {
+    flex: 1;
+}
+
+.author-info h4 {
+    margin: 0;
+    color: var(--text-primary);
+    font-size: 1rem;
+}
+
+.author-info p {
+    margin: 0.25rem 0;
+    color: var(--text-secondary);
+    font-size: 0.85rem;
+}
+
+.company-logo {
+    margin-top: 0.5rem;
+}
+
+.company-logo img {
+    height: 20px;
+    opacity: 0.7;
+    transition: opacity 0.3s ease;
+}
+
+.testimonial-card:hover .company-logo img {
+    opacity: 1;
+}
+
+@media (max-width: 992px) {
+    .testimonials-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .testimonials-container {
+        padding: 2rem 1rem;
+    }
+
+    .testimonials-grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+
+    .testimonial-content {
+        padding: 1.5rem;
+    }
+
+    .testimonial-author {
+        padding: 1rem;
+    }
+}
+
+/* Contact Section Styles */
+.contact-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.contact-container {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    gap: 3rem;
+    margin-top: 2rem;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    overflow: hidden;
+}
+
+/* Contact Info Styles */
+.contact-info {
+    padding: 3rem;
+    background: linear-gradient(135deg, rgba(44, 152, 240, 0.15) 0%, rgba(26, 117, 187, 0.1) 100%);
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.info-card {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 1.5rem;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 15px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+.info-card:hover {
+    transform: translateX(10px);
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+}
+
+.icon-wrapper {
+    width: 60px;
+    height: 60px;
+    background: rgba(44, 152, 240, 0.1);
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    transition: all 0.3s ease;
+}
+
+.icon-wrapper i {
+    font-size: 1.75rem;
+    color: var(--primary-color);
+}
+
+.info-content {
+    color: var(--text-primary);
+}
+
+.info-content h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    color: var(--primary-color);
+}
+
+.info-content p {
+    font-size: 1rem;
+    color: var(--text-secondary);
+}
+
+/* Contact Form Styles */
+.contact-form-wrapper {
+    padding: 3rem;
+}
+
+.contact-form {
+    width: 100%;
+}
+
+.form-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.form-group {
+    position: relative;
+    margin-bottom: 1.5rem;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 1rem;
+    background: #f8f9fa;
+    border: 2px solid transparent;
+    border-radius: 12px;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+.form-group textarea {
+    min-height: 150px;
+    resize: vertical;
+}
+
+.form-group label {
+    position: absolute;
+    left: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #f8f9fa;
+    padding: 0 0.5rem;
+    color: #666;
+    transition: all 0.3s ease;
+    pointer-events: none;
+}
+
+.form-group textarea + label {
+    top: 1rem;
+    transform: none;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    border-color: var(--primary-color);
+    background: white;
+    outline: none;
+}
+
+.form-group input:focus + label,
+.form-group textarea:focus + label,
+.form-group input:not(:placeholder-shown) + label,
+.form-group textarea:not(:placeholder-shown) + label {
+    top: 0;
+    transform: translateY(-50%) scale(0.9);
+    color: var(--primary-color);
+}
+
+.submit-btn {
+    background: var(--primary-color);
+    color: white;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 12px;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: auto;
+}
+
+.submit-btn:hover {
+    background: #1a75bb;
+    transform: translateY(-2px);
+}
+
+/* Responsive Styles */
+@media (max-width: 992px) {
+    .contact-container {
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+
+    .contact-info {
+        padding: 2rem;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1rem;
+    }
+
+    .info-card {
+        flex-direction: column;
+        text-align: center;
+        padding: 1.25rem;
+    }
+
+    .info-card:hover {
+        transform: translateY(-5px);
+    }
+
+    .icon-wrapper {
+        margin-bottom: 1rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .contact-info {
+        grid-template-columns: 1fr;
+        padding: 1.5rem;
+    }
+
+    .contact-form-wrapper {
+        padding: 1.5rem;
+    }
+
+    .form-row {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    .info-card {
+        flex-direction: row;
+        text-align: left;
+    }
+
+    .icon-wrapper {
+        margin-bottom: 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .contact-wrapper {
+        padding: 0 0.5rem;
+    }
+
+    .info-card {
+        padding: 1rem;
+    }
+
+    .icon-wrapper {
+        width: 50px;
+        height: 50px;
+    }
+
+    .icon-wrapper i {
+        font-size: 1.5rem;
+    }
+
+    .form-group input,
+    .form-group textarea {
+        padding: 0.875rem;
+    }
+
+    .submit-btn {
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+.live-chat-btn {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    background: var(--primary-color);
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(44, 152, 240, 0.2);
+    transition: all 0.3s ease;
+    z-index: 1000;
+}
+
+.live-chat-btn:hover {
+    transform: translateY(-3px);
+    background: #1a75bb;
+    box-shadow: 0 6px 20px rgba(44, 152, 240, 0.3);
+}
+
+.live-chat-btn i {
+    font-size: 1.2rem;
+}
+
+.live-chat-btn span {
+    font-size: 0.95rem;
+    font-weight: 500;
+}
+
+@media (max-width: 768px) {
+    .live-chat-btn {
+        bottom: 1.5rem;
+        right: 1.5rem;
+        padding: 0.75rem;
+    }
+
+    .live-chat-btn span {
+        display: none;
+    }
+}
+
+@media (max-width: 480px) {
+    .live-chat-btn {
+        bottom: 1rem;
+        right: 1rem;
+    }
+}
+
+/* Modern Home Section Styles */
+#home {
+    position: relative;
+    overflow: hidden;
+    padding: 4rem 2rem;
+    background: linear-gradient(135deg, #f8fafc 0%, #edf6ff 100%);
+}
+
+.home-container {
+    max-width: 1400px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+}
+
+.home-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    align-items: center;
+    position: relative;
+}
+
+.home-image {
+    position: relative;
+    transform: rotate(-8deg);
+    transform-origin: center center;
+    margin: 2rem 0;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+    margin-left: auto;
+}
+
+.home-image img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+    transform: rotate(8deg) scale(1.1);
+    object-fit: cover;
+}
+
+.home-image:hover img {
+    transform: rotate(8deg) scale(1.15);
+}
+
+@media (max-width: 768px) {
+    .home-image {
+        transform: rotate(-5deg);
+    }
+    
+    .home-image img {
+        transform: rotate(5deg) scale(1.1);
+    }
+    
+    .home-image:hover img {
+        transform: rotate(5deg) scale(1.15);
+    }
+}
+
+@media (max-width: 480px) {
+    .home-image {
+        transform: rotate(-3deg);
+    }
+    
+    .home-image img {
+        transform: rotate(3deg) scale(1.1);
+    }
+    
+    .home-image:hover img {
+        transform: rotate(3deg) scale(1.15);
+    }
+}
+
+.greeting-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    background: rgba(44, 152, 240, 0.1);
+    padding: 0.75rem 1.25rem;
+    border-radius: 50px;
+    font-size: 0.9rem;
+    color: var(--primary-color);
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+
+.wave {
+    display: inline-block;
+    animation: wave 2s infinite;
+    transform-origin: 70% 70%;
+}
+
+@keyframes wave {
+    0% { transform: rotate(0deg); }
+    10% { transform: rotate(14deg); }
+    20% { transform: rotate(-8deg); }
+    30% { transform: rotate(14deg); }
+    40% { transform: rotate(-4deg); }
+    50% { transform: rotate(10deg); }
+    60% { transform: rotate(0deg); }
+    100% { transform: rotate(0deg); }
+}
+
+.hero-title {
+    font-size: 3.5rem;
+    line-height: 1.2;
+    margin-bottom: 1.5rem;
+    background: linear-gradient(135deg, var(--text-primary) 0%, #2176c0 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+}
+
+.hero-subtitle {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: var(--text-secondary);
+    margin-bottom: 2.5rem;
+    max-width: 90%;
+}
+
+.cta-group {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 3rem;
+}
+
+.cta-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 1rem 2rem;
+    border-radius: 12px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+
+.cta-button.primary {
+    background: var(--primary-color);
+    color: white;
+    box-shadow: 0 10px 20px rgba(44, 152, 240, 0.2);
+}
+
+.cta-button.primary:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 15px 30px rgba(44, 152, 240, 0.3);
+}
+
+.cta-button.secondary {
+    background: white;
+    color: var(--primary-color);
+    border: 2px solid rgba(44, 152, 240, 0.2);
+}
+
+.cta-button.secondary:hover {
+    background: rgba(44, 152, 240, 0.05);
+    transform: translateY(-3px);
+}
+
+.home-image {
+    position: relative;
+}
+
+.home-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.home-image:hover img {
+    transform: translateY(-10px);
+}
+
+.quick-stats {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    padding: 1.5rem;
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 16px;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.8);
+}
+
+.stat-item {
+    text-align: center;
+}
+
+.stat-item .counter {
+    display: block;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--primary-color);
+    margin-bottom: 0.5rem;
+    line-height: 1;
+}
+
+.stat-item span:last-child {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+}
+
+@media (max-width: 992px) {
+    .hero-title {
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .home-content {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    .hero-title {
+        font-size: 2.5rem;
+    }
+
+    .hero-subtitle {
+        font-size: 1rem;
+        max-width: 100%;
+    }
+
+    .cta-group {
+        flex-direction: column;
+    }
+
+    .cta-button {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .quick-stats {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    .home-image {
+        order: -1;
+    }
+}
+</style>
+{% endblock %}
+
+{% block extra_js %}
+<script src="{{ url_for('static', filename='js/portfolio.js') }}"></script>
+{% endblock %}
