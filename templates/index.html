@@ -1885,82 +1885,39 @@ p {
 }
 
 .home-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: stretch;
-    width: 100%;
-    height: 100vh;
-    padding: 0;
-    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    align-items: center;
     position: relative;
-}
-
-.intro-section {
-    flex: 1;
-    padding: 0;
-    box-sizing: border-box;
-    position: relative;
-    z-index: 1;
 }
 
 .home-image {
-    position: fixed;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    width: 50%;
-    height: 100vh;
-    overflow: hidden;
-    z-index: 0;
+    position: relative;
+    transform: rotate(-8deg);
+    margin: 2rem 0;
+    border-radius: 20px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+    margin-left: auto;
 }
 
 .home-image img {
     width: 100%;
-    height: 100%;
+    height: auto;
+    border-radius: 20px;
     object-fit: cover;
-    object-position: center;
-    filter: brightness(1.02) contrast(1.02);
-}
-
-/* Update right navigation to appear above the image */
-.right-nav {
-    position: fixed;
-    right: 0;
-    top: 50%;
-    transform: translateY(-50%);
-    z-index: 2;
-    background: rgba(255, 255, 255, 0.9);
-    padding: 1rem 0.5rem;
-    border-radius: 25px 0 0 25px;
-    box-shadow: -2px 0 12px rgba(0, 0, 0, 0.1);
 }
 
 @media (max-width: 768px) {
     .home-content {
-        flex-direction: column;
-        height: auto;
-        min-height: 100vh;
+        grid-template-columns: 1fr;
+        gap: 2rem;
     }
-
-    .intro-section {
-        padding: 2rem 1rem;
-        order: 1;
-    }
-
+    
     .home-image {
-        position: relative;
-        width: 100%;
-        height: 40vh;
-        order: 2;
-    }
-
-    .right-nav {
-        position: fixed;
-        right: 0;
-        top: 50%;
-        transform: translateY(-50%);
-        z-index: 1000;
-        background: rgba(255, 255, 255, 0.95);
+        transform: rotate(-8deg); /* Keep consistent rotation even on mobile */
     }
 }
 
@@ -2051,10 +2008,9 @@ p {
     margin-bottom: 0.5rem;
 }
 
-.stat-item span {
+.stat-item span:last-child {
     font-size: 0.9rem;
     color: var(--text-secondary);
-    display: block;
 }
 
 @media (max-width: 768px) {
@@ -2875,9 +2831,7 @@ p {
 .home-image {
     position: relative;
     transform: rotate(-8deg);
-    transform-origin: center center;
     margin: 2rem 0;
-    overflow: hidden;
     border-radius: 20px;
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
     width: 100%;
@@ -2888,40 +2842,24 @@ p {
 .home-image img {
     width: 100%;
     height: auto;
-    transition: transform 0.3s ease;
-    transform: rotate(8deg) scale(1.1);
+    border-radius: 20px;
     object-fit: cover;
 }
 
-.home-image:hover img {
-    transform: rotate(8deg) scale(1.15);
-}
-
 @media (max-width: 768px) {
+    .home-content {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+    
     .home-image {
-        transform: rotate(-5deg);
-    }
-    
-    .home-image img {
-        transform: rotate(5deg) scale(1.1);
-    }
-    
-    .home-image:hover img {
-        transform: rotate(5deg) scale(1.15);
+        transform: rotate(-8deg); /* Keep consistent rotation even on mobile */
     }
 }
 
 @media (max-width: 480px) {
     .home-image {
-        transform: rotate(-3deg);
-    }
-    
-    .home-image img {
-        transform: rotate(3deg) scale(1.1);
-    }
-    
-    .home-image:hover img {
-        transform: rotate(3deg) scale(1.15);
+        height: 35vh;
     }
 }
 
